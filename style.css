@@ -1,8 +1,22 @@
-header{
-    background-color: #00FF85;
-    color:rgb(25, 24, 26);
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.cabeçalho-imagem{
-   width: 50%;
+.cabecalho{
+    background-color: #e2851b;
+    color:rgb(15, 24, 26);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24xp 0;
+}
+
+.cabecalho-imagem{
+   width: 2%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
 }
