@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    background-color: #000000;
+    color:#f0e1e1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10xp 0;
+}
+
+.cabecalho-imagem{
+   width: 05%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.Gym-imagem{
+    width: 16%;
+}
+
+.hiper{
+    background-image: linear-gradient(#000000,rgb(101, 204, 199));
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.hiper-div-conteudo{
+    width: 40%;
+}
+.hiper-titulo{
+    padding: 24px 0;
+}
+
+.GIGA-imagem{
+    width: 120px;
+}
+
+.atleta-icone{
+    width: 24px;
+}
+
+.atleta-div{
+    text-align: center;
+}
